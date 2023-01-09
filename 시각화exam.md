@@ -26,3 +26,8 @@
 > * plt.show()
 ## exam04.
 * 직업별, 부서별 봉급의 최대값을 두개의 곡선으로 그려낸다.
+> * s1 = emp.groupby('job')['sal'].max().reset_index()
+> * s2 = emp.groupby('deptno')['sal'].max().reset_index()
+> * plt.plot(s1.job, s1.sal)
+> * plt.plot(s2.deptno, s2.sal)
+> * plt.show()
