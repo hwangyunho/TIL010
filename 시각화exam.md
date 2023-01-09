@@ -1,4 +1,8 @@
 # 시각화 예제
+> * import pandas as pd
+> * import matplotlib.pyplot as plt
+> * emp = pd.read_csv('C:/ds_work/data/emp.csv')
+
 * exam01. emp.csv 를 로드한 후 이름과 봉급을 기점으로 선 그래프를 그린다.
 * exam02. 직업별로 봉급을 그룹화 한 결과를 원 그래프를 그려서 수치를 범례표시한다.
 * exam03. 부서별 결과를 막대그래프로 표시한다. 단, 봉급의 합을 이용한다.
