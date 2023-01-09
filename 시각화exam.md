@@ -19,5 +19,10 @@
 > * plt.show()
 ## exam03.
 * 부서별 결과를 막대그래프로 표시한다. 단, 봉급의 합을 이용한다.
+> * s1 = emp.groupby('deptno')['sal'].sum().reset_index()
+> * plt.bar( s1.deptno, s1.sal) 
+> * plt.xlabel('deptno') 
+> * plt.ylabel('sum(sal)')
+> * plt.show()
 ## exam04.
 * 직업별, 부서별 봉급의 최대값을 두개의 곡선으로 그려낸다.
