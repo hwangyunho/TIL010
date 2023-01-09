@@ -1,5 +1,9 @@
 # TIL010
 ## 판다스 활용
+* import pandas as pd
+import numpy as np
+* result = emp.groupby('job')['sal'].max().reset_index()
+* result = pd.merge(emp, dept, on = 'deptno')
 
 ***
 
